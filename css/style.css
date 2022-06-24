@@ -1,19 +1,46 @@
+/* css navbar*/
 *{
     background-color: rgb(216, 210, 210);
-    font-family: roboto;  
 }
+html{
+    font-size: 14px;
+    font-family: roboto;  
+
+
+}
+
+
 nav{
-    text-color:rgb(40, 16, 16);
+    color:rgb(40, 16, 16);
     font-weight: lighter;
-    justify-content:right;
-    background-color: rgb(255, 255, 255);
 }
 nav ul{
+    color: black;
     display: flex;
     list-style: none;
+    justify-content: right;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+header>h1{
+    
+    color:white;
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: 2px;
+    
+
 
 }
-nav lo{
-    padding-left: 1rem;
+header>h1>span{
+    color: rgb(96, 96, 152);
+    
+    
+
 
 }
+
+
+
+
+/* fin css navbar*/
